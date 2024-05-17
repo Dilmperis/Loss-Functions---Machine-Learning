@@ -1,6 +1,5 @@
 from torch.nn import MSELoss
 from tensorflow.keras import losses
-
 np.random.seed(0)
 
 def custom_mse(y_pred, y_true):  # Custom
