@@ -1,7 +1,7 @@
 import torch
 from torch.nn import L1Loss
 from tensorflow.keras import losses
-import numpy
+import numpy as np
 np.random.seed(0)
 
 def custom_mae(y_pred, y_true):                 # Custom
