@@ -21,6 +21,6 @@ mse_torch = MSE_torch(tensor_pred, tensor_true)
 mse_tf = losses.MSE(y_pred, y_true)  # Tensorflow
 
 # Print Statements
-print(f'Custom MSE loss:\t {mse_custom}')
-print(f'Torch MSE loss:\t\t {mse_torch}')
-print(f'TensorFlow MSE loss:\t {mse_tf}')
+print(f'Custom MSE loss:\t {mse_custom:.2f}')
+print(f'Torch MSE loss:\t\t {mse_torch:.2f}')
+print(f'TensorFlow MSE loss:\t {mse_tf:.2f}')
