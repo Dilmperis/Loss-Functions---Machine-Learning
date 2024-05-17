@@ -22,6 +22,6 @@ tf_loss = losses.MAE(y_pred, y_true)             # Tensorflow
 
 
 #Print Statements
-print(f'Custom MAE loss:\t {loss_custom}')
-print(f'Torch MAE loss:\t\t {loss_torch}')
-print(f'TensorFlow MAE loss:\t {tf_loss}')
+print(f'Custom MAE loss:\t {loss_custom:.2f}')
+print(f'Torch MAE loss:\t\t {loss_torch:.2f}')
+print(f'TensorFlow MAE loss:\t {tf_loss:.2f}')
