@@ -1,3 +1,4 @@
+import torch
 from tensorflow.keras import losses
 import numpy as np
 np.random.seed(0)
