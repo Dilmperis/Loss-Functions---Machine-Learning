@@ -1,3 +1,6 @@
+from tensorflow.keras import losses
+np.random.seed(0)
+
 def custom_mape(y_pred, y_true):  # Custom
     return np.mean((np.abs(y_pred - y_true) / np.abs(y_pred)) * 100)
 
